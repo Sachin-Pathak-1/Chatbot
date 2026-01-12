@@ -1,12 +1,97 @@
-# React + Vite
+# 🤖 Simple Chatbot Application (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight and interactive **chatbot web application** built using **React and Vite**.  
+This project demonstrates clean frontend logic, component-based architecture, and simple user interaction handling.
 
-Currently, two official plugins are available:
+It is designed as a **portfolio project** to showcase React fundamentals in a clear and practical way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 https://sachin-pathak-1.github.io/Chatbot/
+
+---
+
+## ✨ Features
+
+The chatbot supports the following actions:
+
+- 📅 **Show today’s date**
+- 🪙 **Flip a coin** (Heads / Tails)
+- 🎲 **Roll a dice** (1–6)
+
+Each response is generated dynamically based on user input.
+
+---
+
+## 🧰 Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- HTML
+- CSS
+
+---
+
+## 📁 Project Structure
+
+src/
+├── components/
+│   └── Chatbot.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+---
+
+## 🛠️ Local Development Setup
+
+1. Clone the repository
+
+git clone https://github.com/Sachin-Pathak-1/Chatbot.git  
+cd Chatbot
+
+2. Install dependencies
+
+npm install
+
+3. Start development server
+
+npm run dev
+
+The app will run at:
+http://localhost:5173
+
+---
+
+## 🧠 What This Project Demonstrates
+
+- React component-based development
+- State handling and conditional logic
+- Clean and readable UI logic
+- Responsive frontend behavior
+- Modern tooling with Vite
+
+---
+
+## 📦 Build for Production
+
+npm run build
+
+---
+
+## 🎯 Purpose of This Project
+
+This chatbot project is built to:
+- Practice core React concepts
+- Implement real-time UI responses
+- Keep logic simple and understandable
+- Serve as a clean portfolio demonstration
+
+---
+
+## 📄 License
+
+This project is created for **learning and portfolio purposes**.
